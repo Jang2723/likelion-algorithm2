@@ -83,7 +83,6 @@ public class AdjMatrix { // 인접행렬
         recursive(0, nodes, adjMat, visited, visitedOrder);
         // 결과 확인
         System.out.println(visitedOrder);
-
     }
 
     // 재귀호출로 DFS 구현해보기
